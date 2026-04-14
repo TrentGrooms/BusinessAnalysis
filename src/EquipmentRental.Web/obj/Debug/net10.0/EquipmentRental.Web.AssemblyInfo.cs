@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EquipmentRental.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+050a3f47bba46123c2100c3dcc1cb41dba910900")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56b0ea39c89d249acbd07ea9875fe2c595be5dfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("EquipmentRental.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EquipmentRental.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
