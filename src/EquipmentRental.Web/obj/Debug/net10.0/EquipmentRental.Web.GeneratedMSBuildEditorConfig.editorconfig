@@ -30,6 +30,38 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/trent/OneDrive/Desktop/BA/src/EquipmentRental.Web/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trent/OneDrive/Desktop/BA/src/EquipmentRental.Web/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trent/OneDrive/Desktop/BA/src/EquipmentRental.Web/Pages/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trent/OneDrive/Desktop/BA/src/EquipmentRental.Web/Pages/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trent/OneDrive/Desktop/BA/src/EquipmentRental.Web/Pages/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trent/OneDrive/Desktop/BA/src/EquipmentRental.Web/Pages/Equipment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trent/OneDrive/Desktop/BA/src/EquipmentRental.Web/Pages/Equipment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trent/OneDrive/Desktop/BA/src/EquipmentRental.Web/Pages/Equipment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/trent/OneDrive/Desktop/BA/src/EquipmentRental.Web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

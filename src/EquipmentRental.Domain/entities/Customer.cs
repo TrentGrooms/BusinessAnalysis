@@ -13,4 +13,6 @@ public class Customer
 
     [Phone]
     public string PhoneNumber { get; set; } = "";
+
+    public bool IsDeleted { get; set; } = false;
 }
