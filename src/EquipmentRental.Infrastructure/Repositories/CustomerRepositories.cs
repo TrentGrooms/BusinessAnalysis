@@ -15,7 +15,7 @@ public class CustomerRepository : ICustomerRepository
         _context = context;
     }
 
-    public async Task<Customer> GetByIdAsync(int customerId)
+    public async Task<Customer?> GetByIdAsync(int customerId)
     {
         var customer = await _context.Customers.FindAsync(customerId);
         if (customer == null)

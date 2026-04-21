@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\EquipmentRental.Application\EquipmentRental.Application.csproj" />
     <ProjectReference Include="..\EquipmentRental.Infrastructure\EquipmentRental.Infrastructure.csproj" />
+    <ProjectReference Include="..\EquipmentRental.Domain\EquipmentRental.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

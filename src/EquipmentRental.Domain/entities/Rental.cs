@@ -3,7 +3,7 @@ namespace EquipmentRental.Domain.entities;
 public class Rental
 {
     public int RentalId { get; set; }
-    public int EquitmentId { get; set; }
+    public int EquipmentId { get; set; }
     public int CustomerId { get; set; }
 
     public DateTime RentalDate { get; set; }
