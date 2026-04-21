@@ -7,7 +7,7 @@ public class Equipment
 
     public string Category { get; set; } = "";
 
-    public double DailyRate { get; set; }
+    public decimal DailyRate { get; set; }
 
     public EquipmentCondition Condition { get; set; }
 

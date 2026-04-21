@@ -1,5 +1,11 @@
+using EquipmentRental.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
+    throw new Exception("Please make sure the connection string is correct");
+
+builder.Services.AddInfrastructure(connectionString);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
@@ -15,12 +21,20 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseStaticFiles();
+
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
 app.MapStaticAssets();
-app.MapRazorPages()
-   .WithStaticAssets();
+app.MapRazorPages();
+
+using (var scope = app.Services.CreateScope())
+{
+    await DependencyInjection.SeedRolesAsync(scope.ServiceProvider);
+}
 
 app.Run();
