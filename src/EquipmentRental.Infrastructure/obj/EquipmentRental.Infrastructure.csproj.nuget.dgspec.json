@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj": {}
+    "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
+    "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
+        "projectUniqueName": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
         "projectName": "EquipmentRental.Application",
-        "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
-        "packagesPath": "C:\\Users\\trent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Application\\obj\\",
+        "projectPath": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
+        "packagesPath": "C:\\Users\\umphr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umphr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
-                "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
+              "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
               }
             }
           }
@@ -42,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -63,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -341,22 +343,24 @@
         }
       }
     },
-    "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
+    "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj",
         "projectName": "EquipmentRental.Domain",
-        "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj",
-        "packagesPath": "C:\\Users\\trent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Domain\\obj\\",
+        "projectPath": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj",
+        "packagesPath": "C:\\Users\\umphr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umphr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -375,7 +379,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -402,7 +406,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -680,33 +684,35 @@
         }
       }
     },
-    "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj": {
+    "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj",
         "projectName": "EquipmentRental.Infrastructure",
-        "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\trent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\umphr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umphr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
-                "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj"
+              "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
+                "projectPath": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj"
               },
-              "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
-                "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
+              "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\umphr\\Documents\\introToBuisnessAnalaysis\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
               }
             }
           }
@@ -721,7 +727,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -761,7 +767,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

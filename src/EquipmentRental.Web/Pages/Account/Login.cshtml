@@ -1,19 +1,53 @@
 ﻿@page
-@model EquipmentRental.Web.Pages.Login
+@model EquipmentRental.Web.Pages.Account.LoginModel
 
 @{
-    Layout = null;
+    Layout = "_Layout";
+    ViewData["Title"] = "Login";
 }
 
-<!DOCTYPE html>
+<div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white text-center">
+                <h4 class="mb-0">Login</h4>
+            </div>
+            <div class="card-body">
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @Model.ErrorMessage
+                    </div>
+                }
 
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<div>
-    
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email Address</label>
+                        <input asp-for="Email" class="form-control" id="Email" placeholder="Enter your email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Password" class="form-label">Password</label>
+                        <input asp-for="Password" class="form-control" id="Password" placeholder="Enter your password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
+                </form>
+
+                <hr />
+
+                <div class="text-center">
+                    <p class="mb-0">Don't have an account? <a asp-page="/Account/Register">Register here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</body>
-</html>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
