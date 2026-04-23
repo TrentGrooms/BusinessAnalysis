@@ -1,5 +1,5 @@
 ﻿@page
-@model EquipmentRental.Web.Pages.Equipment.Edit
+@model EquipmentRental.Web.Pages.Equipment.EditModel
 
 @{
     Layout = null;
@@ -9,11 +9,49 @@
 
 <html>
 <head>
-    <title></title>
+    <title>Edit Equipment</title>
 </head>
 <body>
-<div>
-    
-</div>
+    <div>
+        <h2>Edit Equipment</h2>
+        <button type="button"><a asp-page="Index">Back</a></button>
+
+        <form method="post">
+            <input type="hidden" asp-for="Equipment.EquipmentId" />
+            <div>
+                <label asp-for="Equipment.Name"></label>
+                <input asp-for="Equipment.Name" />
+                <span asp-validation-for="Equipment.Name"></span>
+            </div>
+            <div>
+                <label asp-for="Equipment.Category"></label>
+                <input asp-for="Equipment.Category" />
+                <span asp-validation-for="Equipment.Category"></span>
+            </div>
+            <div>
+                <label asp-for="Equipment.DailyRate"></label>
+                <input asp-for="Equipment.DailyRate" type="number" step="0.01" />
+                <span asp-validation-for="Equipment.DailyRate"></span>
+            </div>
+            <div>
+                <label asp-for="Equipment.Condition"></label>
+                <select asp-for="Equipment.Condition" asp-items="Html.GetEnumSelectList<EquipmentRental.Domain.entities.EquipmentCondition>()"></select>
+                <span asp-validation-for="Equipment.Condition"></span>
+            </div>
+            <div>
+                <label asp-for="Equipment.IsAvailable"></label>
+                <input asp-for="Equipment.IsAvailable" type="checkbox" />
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <button type="submit">Save</button>
+                <button type="button">Delete Equipment Piece</button>
+            </div>
+
+        </form>
+    </div>
 </body>
 </html>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

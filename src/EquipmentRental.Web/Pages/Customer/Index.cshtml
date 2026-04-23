@@ -1,5 +1,5 @@
 ﻿@page
-@model EquipmentRental.Web.Pages.Customer.Index
+@model EquipmentRental.Web.Pages.Customer.IndexModel
 
 @{
     Layout = null;
@@ -9,11 +9,39 @@
 
 <html>
 <head>
-    <title></title>
+    <title>Customer</title>
 </head>
 <body>
 <div>
-    
+    <h2>Customer List</h2>
+
+    <a asp-page="Create" class="btn btn-primary">Create Your Account</a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model.Customers)
+            {
+                <tr>
+                    <td>@customer.FirstName</td>
+                    <td>@customer.LastName</td>
+                    <td>@customer.Email</td>
+                    <td>@customer.PhoneNumber</td>
+                    <td>
+                        <a asp-page="Edit" asp-route-id="@customer.CustomerId">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
 </body>
 </html>

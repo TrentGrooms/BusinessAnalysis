@@ -9,11 +9,44 @@
 
 <html>
 <head>
-    <title></title>
+    <title>Create Equipment</title>
 </head>
 <body>
-<div>
-    
-</div>
+    <div>
+        <h2>Add New Equipment</h2>
+        <a asp-page="Index" class="btn btn-primary">Back</a>
+
+        <form method="post">
+            <div>
+                <label asp-for="Equipment.Name"></label>
+                <input asp-for="Equipment.Name" />
+                <span asp-validation-for="Equipment.Name"></span>
+            </div>
+            <div>
+                <label asp-for="Equipment.Category"></label>
+                <input asp-for="Equipment.Category" />
+                <span asp-validation-for="Equipment.Category"></span>
+            </div>
+            <div>
+                <label asp-for="Equipment.DailyRate"></label>
+                <input asp-for="Equipment.DailyRate" type="number" step="0.01" />
+                <span asp-validation-for="Equipment.DailyRate"></span>
+            </div>
+            <div>
+                <label asp-for="Equipment.Condition"></label>
+                <select asp-for="Equipment.Condition" asp-items="Html.GetEnumSelectList<EquipmentRental.Domain.entities.EquipmentCondition>()"></select>
+                <span asp-validation-for="Equipment.Condition"></span>
+            </div>
+            <div>
+                <label asp-for="Equipment.IsAvailable"></label>
+                <input asp-for="Equipment.IsAvailable" type="checkbox" />
+            </div>
+            <button type="submit">Create</button>
+        </form>
+    </div>
 </body>
 </html>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
