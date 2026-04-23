@@ -1,5 +1,5 @@
 ﻿@page
-@model EquipmentRental.Web.Pages.Equipment.Index
+@model EquipmentRental.Web.Pages.Equipment.IndexModel
 
 @{
     Layout = null;
@@ -7,13 +7,41 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-    <title></title>
+    <title>Equipment</title>
 </head>
 <body>
 <div>
+    <h1>Equipment List</h1>
+    <div style="display: flexbox; justify-content: center">
+        <a asp-page="Create" class="btn btn-primary">Add New Equipment</a>
+        <a asp-page="Edit" class="btn btn-primary">Edit Equipment</a>
+    </div>
     
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Daily Rate</th>
+                <th>Condition</th>
+                <th>Available</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var equipment in Model.EquipmentList)
+            {
+                <tr>
+                    <td>@equipment.Name</td>
+                    <td>@equipment.Category</td>
+                    <td>@equipment.DailyRate.ToString("C")</td>
+                    <td>@equipment.Condition</td>
+                    <td>@(equipment.IsAvailable ? "Yes" : "No")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
 </body>
 </html>

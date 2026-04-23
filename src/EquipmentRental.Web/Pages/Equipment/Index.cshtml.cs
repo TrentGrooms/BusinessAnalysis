@@ -13,7 +13,7 @@ public class IndexModel : PageModel
 
     [BindProperty(SupportsGet = true)] public bool ShowAll { get; set; } = false;
 
-    public Index(IEquipmentRepository repository)
+    public IndexModel(IEquipmentRepository repository)
     {
         _repository = repository;
     }
