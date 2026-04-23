@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using EquipmentRental.Domain.entities;
-using System.ComponentModel.DataAnnotations;
 
 namespace EquipmentRental.Web.Pages.Account;
 
