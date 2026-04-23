@@ -1,4 +1,6 @@
 using EquipmentRental.Infrastructure;
+using EquipmentRental.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,6 +36,8 @@ app.MapRazorPages();
 
 using (var scope = app.Services.CreateScope())
 {
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
     await DependencyInjection.SeedRolesAsync(scope.ServiceProvider);
 }
 
