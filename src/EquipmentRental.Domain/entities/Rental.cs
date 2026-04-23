@@ -14,8 +14,8 @@ public class Rental
 
     public bool IsClosed {get; set; }
 
-    public Equipment Equipment { get; set; }
-    public Customer Customer { get; set; }
+    public Equipment Equipment { get; set; } = null!;
+    public Customer Customer { get; set; } = null!;
 
 
 }

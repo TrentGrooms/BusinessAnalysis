@@ -19,6 +19,22 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
         base.OnModelCreating(modelBuilder);
 
+        modelBuilder.Entity<Rental>(r =>
+        {
+            r.HasKey(r => r.RentalId);
+            r.Property(r => r.TotalCost).HasColumnType("decimal(18,2)");
+
+            r.HasOne(r => r.Equipment)
+                .WithMany()
+                .HasForeignKey(r => r.EquipmentId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            r.HasOne(r => r.Customer)
+                .WithMany()
+                .HasForeignKey(r => r.CustomerId)
+                .OnDelete(DeleteBehavior.Restrict);
+        });
+
         
         modelBuilder.Entity<Equipment>( e =>
         {
