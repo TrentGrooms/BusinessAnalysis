@@ -1,32 +1,30 @@
 ﻿@page
 @model EquipmentRental.Web.Pages.Equipment.IndexModel
-
 @{
-    Layout = null;
+    ViewData["Title"] = "Equipment";
+    Layout = "_Layout";
 }
 
-<!DOCTYPE html>
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Equipment List</h2>
+    <a asp-page="Create" class="btn btn-success">+ Add New Equipment</a>
+</div>
 
-<html lang="en">
-<head>
-    <title>Equipment</title>
-</head>
-<body>
-<div>
-    <h1>Equipment List</h1>
-    <div style="display: flexbox; justify-content: center">
-        <a asp-page="Create" class="btn btn-primary">Add New Equipment</a>
-        <a asp-page="Edit" class="btn btn-primary">Edit Equipment</a>
-    </div>
-    
-    <table class="table">
-        <thead>
+<div class="mb-3">
+    <a asp-page="Index" class="btn btn-outline-secondary btn-sm @(!Model.ShowAll ? "active" : "")">Available Only</a>
+    <a asp-page="Index" asp-route-showAll="true" class="btn btn-outline-secondary btn-sm @(Model.ShowAll ? "active" : "")">Show All</a>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover align-middle">
+        <thead class="table-dark">
             <tr>
                 <th>Name</th>
                 <th>Category</th>
                 <th>Daily Rate</th>
                 <th>Condition</th>
                 <th>Available</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -37,11 +35,25 @@
                     <td>@equipment.Category</td>
                     <td>@equipment.DailyRate.ToString("C")</td>
                     <td>@equipment.Condition</td>
-                    <td>@(equipment.IsAvailable ? "Yes" : "No")</td>
+                    <td>
+                        @if (equipment.IsAvailable)
+                        {
+                            <span class="badge bg-success">Yes</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">No</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-page="Edit" asp-route-id="@equipment.EquipmentId" class="btn btn-sm btn-warning">Edit</a>
+                        <form method="post" asp-page-handler="Delete" asp-route-id="@equipment.EquipmentId" style="display:inline">
+                            <button type="submit" class="btn btn-sm btn-danger"
+                                onclick="return confirm('Are you sure you want to delete this equipment?')">Delete</button>
+                        </form>
+                    </td>
                 </tr>
             }
         </tbody>
     </table>
 </div>
-</body>
-</html>

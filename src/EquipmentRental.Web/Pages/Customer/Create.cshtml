@@ -1,47 +1,53 @@
 ﻿@page
 @model EquipmentRental.Web.Pages.Customer.CreateModel
-
 @{
+    ViewData["Title"] = "Add Customer";
     Layout = "_Layout";
 }
 
-<!DOCTYPE html>
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-header bg-dark text-white">
+                <h4 class="mb-0">Add New Customer</h4>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
 
-<html>
-<head>
-    <title>Create Customer</title>
-</head>
-<body>
-    <div>
-        <h2>Add New Customer</h2>
-        <a asp-page="Index" class="btn btn-primary"></a>
+                    <div class="mb-3">
+                        <label asp-for="Customer.FirstName" class="form-label fw-semibold"></label>
+                        <input asp-for="Customer.FirstName" class="form-control" />
+                        <span asp-validation-for="Customer.FirstName" class="text-danger small"></span>
+                    </div>
 
-        <form method="post">
-            <div>
-                <label asp-for="Customer.FirstName"></label>
-                <input asp-for="Customer.FirstName" />
-                <span asp-validation-for="Customer.FirstName"></span>
+                    <div class="mb-3">
+                        <label asp-for="Customer.LastName" class="form-label fw-semibold"></label>
+                        <input asp-for="Customer.LastName" class="form-control" />
+                        <span asp-validation-for="Customer.LastName" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Customer.Email" class="form-label fw-semibold"></label>
+                        <input asp-for="Customer.Email" class="form-control" type="email" />
+                        <span asp-validation-for="Customer.Email" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Customer.PhoneNumber" class="form-label fw-semibold"></label>
+                        <input asp-for="Customer.PhoneNumber" class="form-control" type="tel" />
+                        <span asp-validation-for="Customer.PhoneNumber" class="text-danger small"></span>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-success">Save Customer</button>
+                        <a asp-page="Index" class="btn btn-outline-secondary">Cancel</a>
+                    </div>
+                </form>
             </div>
-            <div>
-                <label asp-for="Customer.LastName"></label>
-                <input asp-for="Customer.LastName" />
-                <span asp-validation-for="Customer.LastName"></span>
-            </div>
-            <div>
-                <label asp-for="Customer.Email"></label>
-                <input asp-for="Customer.Email" type="email" />
-                <span asp-validation-for="Customer.Email"></span>
-            </div>
-            <div>
-                <label asp-for="Customer.PhoneNumber"></label>
-                <input asp-for="Customer.PhoneNumber" type="tel" />
-                <span asp-validation-for="Customer.PhoneNumber"></span>
-            </div>
-            <button type="submit">Create</button>
-        </form>
+        </div>
     </div>
-</body>
-</html>
+</div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

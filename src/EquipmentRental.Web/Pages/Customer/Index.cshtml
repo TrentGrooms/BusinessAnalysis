@@ -1,24 +1,18 @@
 ﻿@page
 @model EquipmentRental.Web.Pages.Customer.IndexModel
-
 @{
-    Layout = null;
+    ViewData["Title"] = "Customers";
+    Layout = "_Layout";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>Customer</title>
-</head>
-<body>
-<div>
+<div class="d-flex justify-content-between align-items-center mb-4">
     <h2>Customer List</h2>
+    <a asp-page="Create" class="btn btn-success">+ Add Customer</a>
+</div>
 
-    <a asp-page="Create" class="btn btn-primary">Create Your Account</a>
-
-    <table class="table">
-        <thead>
+<div class="table-responsive">
+    <table class="table table-striped table-hover align-middle">
+        <thead class="table-dark">
             <tr>
                 <th>First Name</th>
                 <th>Last Name</th>
@@ -36,12 +30,10 @@
                     <td>@customer.Email</td>
                     <td>@customer.PhoneNumber</td>
                     <td>
-                        <a asp-page="Edit" asp-route-id="@customer.CustomerId">Edit</a>
+                        <a asp-page="Edit" asp-route-id="@customer.CustomerId" class="btn btn-sm btn-warning">Edit</a>
                     </td>
                 </tr>
             }
         </tbody>
     </table>
 </div>
-</body>
-</html>

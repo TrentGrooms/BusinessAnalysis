@@ -1,51 +1,62 @@
 ﻿@page
 @model EquipmentRental.Web.Pages.Equipment.CreateModel
-
 @{
+    ViewData["Title"] = "Add Equipment";
     Layout = "_Layout";
 }
 
-<!DOCTYPE html>
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-header bg-dark text-white">
+                <h4 class="mb-0">Add New Equipment</h4>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger" style="display:none"></div>
 
-<html>
-<head>
-    <title>Create Equipment</title>
-</head>
-<body>
-    <div>
-        <h2>Add New Equipment</h2>
-        <a asp-page="Index" class="btn btn-primary">Back</a>
+                    <div class="mb-3">
+                        <label asp-for="Equipment.Name" class="form-label fw-semibold"></label>
+                        <input asp-for="Equipment.Name" class="form-control" />
+                        <span asp-validation-for="Equipment.Name" class="text-danger small"></span>
+                    </div>
 
-        <form method="post">
-            <div>
-                <label asp-for="Equipment.Name"></label>
-                <input asp-for="Equipment.Name" />
-                <span asp-validation-for="Equipment.Name"></span>
+                    <div class="mb-3">
+                        <label asp-for="Equipment.Category" class="form-label fw-semibold"></label>
+                        <input asp-for="Equipment.Category" class="form-control" />
+                        <span asp-validation-for="Equipment.Category" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Equipment.DailyRate" class="form-label fw-semibold"></label>
+                        <div class="input-group">
+                            <span class="input-group-text">$</span>
+                            <input asp-for="Equipment.DailyRate" class="form-control" type="number" step="0.01" />
+                        </div>
+                        <span asp-validation-for="Equipment.DailyRate" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Equipment.Condition" class="form-label fw-semibold"></label>
+                        <select asp-for="Equipment.Condition"
+                                asp-items="Html.GetEnumSelectList<EquipmentRental.Domain.entities.EquipmentCondition>()"
+                                class="form-select"></select>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input asp-for="Equipment.IsAvailable" class="form-check-input" type="checkbox" />
+                        <label asp-for="Equipment.IsAvailable" class="form-check-label fw-semibold">Available</label>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-success">Save Equipment</button>
+                        <a asp-page="Index" class="btn btn-outline-secondary">Cancel</a>
+                    </div>
+                </form>
             </div>
-            <div>
-                <label asp-for="Equipment.Category"></label>
-                <input asp-for="Equipment.Category" />
-                <span asp-validation-for="Equipment.Category"></span>
-            </div>
-            <div>
-                <label asp-for="Equipment.DailyRate"></label>
-                <input asp-for="Equipment.DailyRate" type="number" step="0.01" />
-                <span asp-validation-for="Equipment.DailyRate"></span>
-            </div>
-            <div>
-                <label asp-for="Equipment.Condition"></label>
-                <select asp-for="Equipment.Condition" asp-items="Html.GetEnumSelectList<EquipmentRental.Domain.entities.EquipmentCondition>()"></select>
-                <span asp-validation-for="Equipment.Condition"></span>
-            </div>
-            <div>
-                <label asp-for="Equipment.IsAvailable"></label>
-                <input asp-for="Equipment.IsAvailable" type="checkbox" />
-            </div>
-            <button type="submit">Create</button>
-        </form>
+        </div>
     </div>
-</body>
-</html>
+</div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
