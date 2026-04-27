@@ -46,11 +46,20 @@
                         }
                     </td>
                     <td>
-                        <a asp-page="Edit" asp-route-id="@equipment.EquipmentId" class="btn btn-sm btn-warning">Edit</a>
+                        @if (!User.IsInRole("Admin"))
+                        {
+                            {
+                            <a asp-page="Edit" asp-route-id="@equipment.EquipmentId" class="btn btn-sm btn-warning">Edit</a>
+                        }
                         <form method="post" asp-page-handler="Delete" asp-route-id="@equipment.EquipmentId" style="display:inline">
                             <button type="submit" class="btn btn-sm btn-danger"
                                 onclick="return confirm('Are you sure you want to delete this equipment?')">Delete</button>
                         </form>
+                        }
+                        else
+                        {
+                            <span class="text-muted">No actions available</span>}
+                       
                     </td>
                 </tr>
             }
