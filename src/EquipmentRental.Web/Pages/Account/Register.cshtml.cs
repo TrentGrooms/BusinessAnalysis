@@ -1,4 +1,5 @@
 ﻿using EquipmentRental.Domain.entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -6,6 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EquipmentRental.Web.Pages.Account;
 
+[AllowAnonymous]
 public class RegisterModel : PageModel
 {
     private readonly UserManager<ApplicationUser> _userManager;

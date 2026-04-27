@@ -46,7 +46,7 @@
                         }
                     </td>
                     <td>
-                        @if (!User.IsInRole("Admin"))
+                        @if (User.IsInRole("Admin"))
                         {
                             {
                             <a asp-page="Edit" asp-route-id="@equipment.EquipmentId" class="btn btn-sm btn-warning">Edit</a>

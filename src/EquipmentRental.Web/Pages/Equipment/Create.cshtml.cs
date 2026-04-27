@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using EquipmentRental.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EquipmentRental.Web.Pages.Equipment;
 
+[Authorize(Roles = "Admin")]
 public class CreateModel : PageModel
 {
     private readonly IEquipmentRepository _repository;

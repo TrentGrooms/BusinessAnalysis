@@ -2,9 +2,11 @@
 using EquipmentRental.Application.Interfaces;
 using EquipmentRental.Domain.entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EquipmentRental.Web.Pages.Customer;
 
+[Authorize(Roles ="Admin,Employee")]
 public class IndexModel : PageModel
 {
     private readonly ICustomerRepository _Repository;

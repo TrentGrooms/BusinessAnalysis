@@ -35,8 +35,9 @@
                                 <span class="nav-link text-white-50">@User.Identity.Name</span>
                             </li>
                             <li class="nav-item">
-                                <form method="post" asp-page="/Account/Logout">
-                                    <button type="submit" class="btn btn-outline-light btn-sm mt-1">Logout</button>
+                                <form method="post" asp-page="/Account/Logout" asp-page-handler="Logout" class="d-inline">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="nav-link btn btn-link text-white">Logout</button>
                                 </form>
                             </li>
                         }

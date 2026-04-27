@@ -2,9 +2,11 @@
 using EquipmentRental.Domain.entities;
 using Microsoft.AspNetCore.Mvc;
 using EquipmentRental.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EquipmentRental.Web.Pages.Equipment;
 
+[Authorize(Roles ="Admin,Employee")]
 public class IndexModel : PageModel
 {
     private readonly IEquipmentRepository _repository;
@@ -23,6 +25,7 @@ public class IndexModel : PageModel
         EquipmentList = ShowAll ? await _repository.GetAllAsync() : await _repository.GetAvailableAsync();
     }
 
+    
     public async Task<IActionResult> OnPostDeleteAsync(int id)
     {
         await _repository.DeleteAsync(id);

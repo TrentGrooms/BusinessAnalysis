@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using EquipmentRental.Domain.entities;
 using EquipmentRental.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EquipmentRental.Web.Pages.Customer;
 
+[Authorize(Roles ="Admin,Employee")]
 public class EditModel : PageModel
 {
     private readonly ICustomerRepository _repository;

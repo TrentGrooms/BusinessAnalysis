@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using EquipmentRental.Domain.entities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EquipmentRental.Web.Pages.Account;
 
+[AllowAnonymous]
 public class LoginModel : PageModel
 {
     private readonly SignInManager<ApplicationUser> _signInManager;
@@ -44,7 +46,7 @@ public class LoginModel : PageModel
         
         
         if(result.Succeeded)
-            return RedirectToPage("Index");
+            return RedirectToPage("/Index");
         
         ErrorMessage = "Invalid email or password";
         return Page();
