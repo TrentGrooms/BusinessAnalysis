@@ -68,7 +68,18 @@ public class RegisterModel : PageModel
 
         if (result.Succeeded)
         {
-            await _userManager.AddToRoleAsync(user, Role);
+            var validRoles = new[] { "Admin", "Employee" };
+            var roleToAssign = validRoles.Contains(Role) ? Role : "Employee";
+            
+            var roleResult = await _userManager.AddToRoleAsync(user, roleToAssign);
+            
+            if (!roleResult.Succeeded)
+            {
+                ErrorMessages = roleResult.Errors.Select(e => e.Description).ToList();
+                await _userManager.DeleteAsync(user);
+                return Page();
+            }
+
             await _signInManager.SignInAsync(user, isPersistent: false);
             return RedirectToPage("/Index");
         }
