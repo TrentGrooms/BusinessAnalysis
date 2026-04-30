@@ -12,7 +12,7 @@ public class Rental
 
     public decimal TotalCost { get; set; }
 
-    public bool IsClosed {get; set; }
+    public bool IsClosed {get; set; } = false;
 
     public Equipment Equipment { get; set; } = null!;
     public Customer Customer { get; set; } = null!;

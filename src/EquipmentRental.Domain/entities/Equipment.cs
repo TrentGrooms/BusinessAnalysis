@@ -11,7 +11,7 @@ public class Equipment
 
     public EquipmentCondition Condition { get; set; }
 
-    public bool IsAvailable { get; set; } = true;
+    public bool IsAvailable { get; set; }
 
 
 

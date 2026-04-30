@@ -5,6 +5,7 @@ using EquipmentRental.Domain.entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
+using EquipmentRental.Application.services;
 using Microsoft.Extensions.Options;
 using Microsoft.Identity.Client;
 
@@ -33,6 +34,8 @@ public static class DependencyInjection
 
         services.AddScoped<IEquipmentRepository, EquipmentRepository>();
         services.AddScoped<ICustomerRepository, CustomerRepository>();
+        services.AddScoped<IRentalRepository, RentalRepository>();
+        services.AddScoped<RentalService>();
 
         return services;
     }
