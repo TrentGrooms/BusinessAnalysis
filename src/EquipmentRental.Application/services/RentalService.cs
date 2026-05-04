@@ -1,4 +1,5 @@
-﻿using EquipmentRental.Application.Interfaces;
+﻿using System.Reflection;
+using EquipmentRental.Application.Interfaces;
 using EquipmentRental.Domain.entities;
 
 
@@ -8,6 +9,8 @@ public class RentalService
 {
     private readonly IRentalRepository _rentalRepo;
     private readonly IEquipmentRepository _equipmentRepo;
+
+    private const decimal LateFeePerDay = 20m;
 
     public RentalService(IRentalRepository rentalRepo, IEquipmentRepository equipmentRepo)
     {
@@ -57,6 +60,20 @@ public class RentalService
         await _equipmentRepo.UpdateAsync(rental.Equipment);
 
         return (true, string.Empty);
+    }
+
+    public decimal CalculateTotalCost(Rental rental, DateTime returnDate)
+    {
+        var rentalDays = (returnDate - rental.RentalDate).Days;
+        if (rentalDays < 1) rentalDays = 1;
+
+        var baseCost = rentalDays * rental.Equipment.DailyRate;
+
+        var daysLate = (returnDate - rental.DueDate).Days;
+        var lateFee = daysLate > 0 ? daysLate * LateFeePerDay : 0m;
+
+        return baseCost + lateFee;
+
     }
 
     
