@@ -1,0 +1,65 @@
+@page
+@model EquipmentRental.Web.Pages.Rental.CreateModel
+@{
+    ViewData["Title"] = "Create Rental";
+    Layout = "_Layout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-header bg-dark text-white">
+                <h4 class="mb-0">Create New Rental</h4>
+            </div>
+            <div class="card-body">
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                    <div class="alert alert-danger">@Model.ErrorMessage</div>
+                }
+
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger" style="display:none"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Rental.EquipmentId" class="form-label fw-semibold">Equipment</label>
+                        <select asp-for="Rental.EquipmentId" class="form-select">
+                            <option value="">-- Select Equipment --</option>
+                            @foreach (var equipment in Model.AvailableEquipment)
+                            {
+                                <option value="@equipment.EquipmentId">@equipment.Name (@equipment.DailyRate.ToString("C")/day)</option>
+                            }
+                        </select>
+                        <span asp-validation-for="Rental.EquipmentId" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Rental.CustomerId" class="form-label fw-semibold">Customer</label>
+                        <select asp-for="Rental.CustomerId" class="form-select">
+                            <option value="">-- Select Customer --</option>
+                            @foreach (var customer in Model.Customers)
+                            {
+                                <option value="@customer.CustomerId">@customer.FirstName @customer.LastName</option>
+                            }
+                        </select>
+                        <span asp-validation-for="Rental.CustomerId" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Rental.DueDate" class="form-label fw-semibold">Due Date</label>
+                        <input asp-for="Rental.DueDate" class="form-control" type="date" />
+                        <span asp-validation-for="Rental.DueDate" class="text-danger small"></span>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-success">Create Rental</button>
+                        <a asp-page="Index" class="btn btn-outline-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
