@@ -19,85 +19,85 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = EquipmentRental.Web
 build_property.RootNamespace = EquipmentRental.Web
-build_property.ProjectDir = C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Web\
+build_property.ProjectDir = C:\Users\trent\OneDrive\Desktop\BusinessAnalysis\src\EquipmentRental.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Web
+build_property.MSBuildProjectDirectory = C:\Users\trent\OneDrive\Desktop\BusinessAnalysis\src\EquipmentRental.Web
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Account/Login.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Account/Logout.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Account/Register.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Customer/Create.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Customer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Customer/Edit.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Customer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Customer/Index.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Equipment/Create.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Equipment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Equipment/Edit.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Equipment/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Equipment/Index.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Equipment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBtZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Error.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Index.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Privacy.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Rental/Create.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Rental/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVudGFsXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Rental/Index.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Rental/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVudGFsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/_ViewImports.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/_ViewStart.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/umphr/OneDrive/Documents/SchoolFIles/BusinessAnalysis/src/EquipmentRental.Web/Pages/Shared/_Layout.cshtml]
+[C:/Users/trent/OneDrive/Desktop/BusinessAnalysis/src/EquipmentRental.Web/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-v503tkv0to

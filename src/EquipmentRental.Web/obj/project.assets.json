@@ -3336,19 +3336,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\umphr\\.nuget\\packages\\": {}
+    "C:\\Users\\trent\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj",
+      "projectUniqueName": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj",
       "projectName": "EquipmentRental.Web",
-      "projectPath": "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj",
-      "packagesPath": "C:\\Users\\umphr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Web\\obj\\",
+      "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj",
+      "packagesPath": "C:\\Users\\trent\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\umphr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\trent\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -3360,14 +3360,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
-              "projectPath": "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj"
+            "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
+              "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj"
             },
-            "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
-              "projectPath": "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
+            "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
+              "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
             },
-            "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj"
+            "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj"
             }
           }
         }
@@ -3382,7 +3382,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
@@ -3418,7 +3418,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
