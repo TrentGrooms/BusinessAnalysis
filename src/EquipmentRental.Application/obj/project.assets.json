@@ -1079,19 +1079,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\trent\\.nuget\\packages\\": {}
+    "C:\\Users\\umphr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
+      "projectUniqueName": "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
       "projectName": "EquipmentRental.Application",
-      "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
-      "packagesPath": "C:\\Users\\trent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Application\\obj\\",
+      "projectPath": "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
+      "packagesPath": "C:\\Users\\umphr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\trent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\umphr\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -1103,8 +1103,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
-              "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BA\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
+            "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
+              "projectPath": "C:\\Users\\umphr\\OneDrive\\Documents\\SchoolFIles\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
             }
           }
         }
@@ -1119,7 +1119,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -1140,7 +1140,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -11,3 +11,16 @@ C:\Users\trent\OneDrive\Desktop\BA\src\EquipmentRental.Domain\obj\Debug\net10.0\
 C:\Users\trent\OneDrive\Desktop\BA\src\EquipmentRental.Domain\obj\Debug\net10.0\refint\EquipmentRental.Domain.dll
 C:\Users\trent\OneDrive\Desktop\BA\src\EquipmentRental.Domain\obj\Debug\net10.0\EquipmentRental.Domain.pdb
 C:\Users\trent\OneDrive\Desktop\BA\src\EquipmentRental.Domain\obj\Debug\net10.0\ref\EquipmentRental.Domain.dll
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\bin\Debug\net10.0\EquipmentRental.Domain.deps.json
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\bin\Debug\net10.0\EquipmentRental.Domain.dll
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\bin\Debug\net10.0\EquipmentRental.Domain.pdb
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\obj\Debug\net10.0\EquipmentRental.Domain.csproj.AssemblyReference.cache
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\obj\Debug\net10.0\EquipmentRental.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\obj\Debug\net10.0\EquipmentRental.Domain.AssemblyInfoInputs.cache
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\obj\Debug\net10.0\EquipmentRental.Domain.AssemblyInfo.cs
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\obj\Debug\net10.0\EquipmentRental.Domain.csproj.CoreCompileInputs.cache
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\obj\Debug\net10.0\EquipmentRental.Domain.sourcelink.json
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\obj\Debug\net10.0\EquipmentRental.Domain.dll
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\obj\Debug\net10.0\refint\EquipmentRental.Domain.dll
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\obj\Debug\net10.0\EquipmentRental.Domain.pdb
+C:\Users\umphr\OneDrive\Documents\SchoolFIles\BusinessAnalysis\src\EquipmentRental.Domain\obj\Debug\net10.0\ref\EquipmentRental.Domain.dll
