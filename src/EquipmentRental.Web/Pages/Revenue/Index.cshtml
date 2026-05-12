@@ -1,0 +1,47 @@
+@page
+@model EquipmentRental.Web.Pages.Revenue.Index
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <h1>Revenue Report</h1>
+
+    <div>
+        <p><strong>Total revenue:</strong> @Model.RevenueReport.TotalRevenue.ToString("C")</p>
+        <p><strong>Closed rentals:</strong> @Model.RevenueReport.RentalCount</p>
+        <p><strong>Average per rental:</strong> @Model.RevenueReport.AverageRevenuePerRental.ToString("C")</p>
+    </div>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Year</th>
+            <th>Month</th>
+            <th>Revenue</th>
+            <th>Rentals</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.RevenueReport.ByMonth)
+        {
+            <tr>
+                <td>@item.Year</td>
+                <td>@item.Month</td>
+                <td>@item.Revenue.ToString("C")</td>
+                <td>@item.RentalCount</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
