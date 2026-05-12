@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj": {}
+    "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
+    "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
+        "projectUniqueName": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
         "projectName": "EquipmentRental.Application",
-        "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
-        "packagesPath": "C:\\Users\\trent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Application\\obj\\",
+        "projectPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj",
+        "packagesPath": "C:\\Users\\repps\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\repps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
-                "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
+              "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
               }
             }
           }
@@ -341,22 +343,24 @@
         }
       }
     },
-    "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
+    "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj",
         "projectName": "EquipmentRental.Domain",
-        "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj",
-        "packagesPath": "C:\\Users\\trent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\obj\\",
+        "projectPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj",
+        "packagesPath": "C:\\Users\\repps\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\repps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -680,33 +684,35 @@
         }
       }
     },
-    "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj": {
+    "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj",
         "projectName": "EquipmentRental.Infrastructure",
-        "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\trent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\repps\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\repps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
-                "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj"
+              "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
+                "projectPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj"
               },
-              "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
-                "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
+              "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
               }
             }
           }
@@ -1179,36 +1185,38 @@
         }
       }
     },
-    "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj": {
+    "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj",
+        "projectUniqueName": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj",
         "projectName": "EquipmentRental.Web",
-        "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj",
-        "packagesPath": "C:\\Users\\trent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Web\\obj\\",
+        "projectPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Web\\EquipmentRental.Web.csproj",
+        "packagesPath": "C:\\Users\\repps\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trent\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\repps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
-                "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj"
+              "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj": {
+                "projectPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Application\\EquipmentRental.Application.csproj"
               },
-              "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
-                "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
+              "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Domain\\EquipmentRental.Domain.csproj"
               },
-              "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\trent\\OneDrive\\Desktop\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj"
+              "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\repps\\Documents\\IHCC\\Third Term\\Business Analysis\\The Project\\BusinessAnalysis\\src\\EquipmentRental.Infrastructure\\EquipmentRental.Infrastructure.csproj"
               }
             }
           }
